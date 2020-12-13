@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Impact of housing on education, health & happiness
 
 You can use the [editor on GitHub](https://github.com/estellebarthelet/housing/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
