@@ -2,13 +2,13 @@
 
 Have you ever wondered where you would be now if you had grown up in a different environment? Would you be healthy? More successful in your studies? Happier?
 
->__*How do your living conditions affect your life? *__
+__*How do your living conditions affect your life?*__
 
 This is the question we asked ourselves after reading how Mexico managed to improve children's health and their mother's happiness by replacing dirt floors with cement, in a program called [_Piso Firme_] (https://www.aeaweb.org/articles?id=10.1257/pol.1.1.75).[1]
 
 Indeed, achieving such results with only a bit more than 150$ of cement per household seemed rather encouraging, but this led us to wonder:
 
-<div align="center">What impact has the housing environment on education, health & happiness?<\div>
+<div align="center">What impact has the housing environment on education, health & happiness?</div>
 
 ## What, where, who, when ?
 
