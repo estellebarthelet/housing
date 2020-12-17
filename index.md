@@ -1,37 +1,24 @@
-## Impact of housing on education, health & happiness
+# Influence of housing on education, health & happiness
 
-You can use the [editor on GitHub](https://github.com/estellebarthelet/housing/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Have you ever wondered where you would be now if you had grown up in a different environment? Would you be healthy? More successful in your studies? Happier?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+>__*How do your living conditions affect your life? *__
 
-### Markdown
+This is the question we asked ourselves after reading how Mexico managed to improve children's health and their mother's happiness by replacing dirt floors with cement, in a program called [_Piso Firme_] (https://www.aeaweb.org/articles?id=10.1257/pol.1.1.75).[1]
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Indeed, achieving such results with only a bit more than 150$ of cement per household seemed rather encouraging, but this led us to wonder:
 
-```markdown
-Syntax highlighted code block
+<div align="center">What impact has the housing environment on education, health & happiness?<\div>
 
-# Header 1
-## Header 2
-### Header 3
+## What, where, who, when ?
 
-- Bulleted
-- List
+To try and answer that vast question we decided to focus on three main research axes.
 
-1. Numbered
-2. List
+* Which life outcomes (education, health or happiness) is most affected by housing conditions?
 
-**Bold** and _Italic_ and `Code` text
+* What is the effect of precarious housing on health (both physical and mental) and school involvement for children?
 
-[Link](url) and ![Image](src)
-```
+* Are there differences in the effects of precarity between different age groups ? If so, for which outcomes ?
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+But on who were we going to conduct such a study? We opted for a subset of the data from the [National Survey of America's Family] (https://www.icpsr.umich.edu/web/ICPSR/studies/4582) of 2002, to see the perspective from the other side of the frontier, in a similar timeframe as _Piso Firme_ (the program started in 2000).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/estellebarthelet/housing/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
