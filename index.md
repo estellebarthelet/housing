@@ -42,8 +42,6 @@ Our indicator for education is measured on a school engagement scale, higher sco
 
 Let's look at some of the features that seemed to influence involvment in school the most.
 
-**_PLOT SPECED, UACT, UAGG_**
-
 ![Plot1](./figures/1_UENG_vs_SEX_CSPECED_UACT_UFAMSTR.png)
 
 a) As we could expect, children receiving special education services show less engagement in school than children who don't.
@@ -54,7 +52,7 @@ It is also interesting to note that girls are definitely more engaged in school 
 
 c) The effect of family structure also seems to play a role. The `family structure index` recenses 4 types of familial living arrangement, respectively living with no parents, living with single parent, living in a step-family and living with two biological or adoptive parents.Even though the first three cases do not show any particular relationship with education, it seems that children living with both parents are more involved in school work. 
 
-**_PLOT UAGE, UAGG_**
+![Plot2](./figures/2_UENG_vs_AGE_UAGG.png)
 
 d) This plot shows a compelling story. From a general point of view, it seems that highly engaged children are younger than less engaged ones. An explanation could be that as children grow older, their parents will likely supervise their school work less. However, we can see that the mean age of the most engaged children (15+ scores) is higher, meaning, perhaps, that some of the more involved students show high engagement for their entire education, regardless of age. 
 
@@ -67,7 +65,7 @@ The indicator for physical health that we used was a scale representing the curr
 
 Here are some of the features with the most influence on health:
 
-**_PLOT UMH2, UACT, USOCPOC_**
+![Plot3](./figures/3_BHLTHN_vs_SOCPOV_UACT_UMH.png)
 
 a) First, we can observe that higher family income is related to less health issues. However, it would be interesting to study this effect in more details, as it is certainly linked to other factors. For example, poorer family perhaps do not have the insurance coverage needed to resolve their children's health problems if they have any.
 
@@ -82,7 +80,9 @@ Now let's look whether depressive feelings are linked to the environment in whic
 
 Here are shown the conditions that impact chilren well-being the most:
 
-**_PLOT AGE, FAMSTR, AGG, UMH2_**
+![Plot4](./figures/4_DEPR_vs_AGE_FAMSTR.png)
+
+![Plot5](./figures/5_DEPR_vs_UAGG_UMH.png)
 
 a) First, let's look at the evolution with age. Sadly, it shows that the mental health of children steadily deteriorates with age. The trend seems to reach a plateau at around 16, which coincides with the end of adolescence. It can be quite a troubling period for many teenagers, which might explain this increasing occurence of depression between age 10 and 16. It would be interesting to see the results to see if depression rate decreases after that (hopefully it does!). 
 
@@ -97,7 +97,7 @@ d) Lastly, the distribution of parental mental health scores in function of chil
 
 Out of curiosity, we decided to look briefly into the influence of living conditions on parents happiness. It turned out that income, relationship with children and having a disabled child seemed to play a role.
 
-**_PLOT USOCPOV, BDISBL, UAGG_**
+![Plot6](./figures/6_UMH_vs_UAGG_SOCPOV_BDISBL.png)
 
 a) Without surprise, parents mental health deteriorates as the relationship with children worsen. Again, causality is hard to establish.
 
@@ -112,7 +112,7 @@ Next, let's dive deeper and compare life outcomes of people living or not in pre
 
 To start with, we need to determine what 'precarious conditions' actually means for our study. To do so, we established a living index reflecting the quality of life, based on variables both economic (income, house ownership, health insurance) and social (family structure, relationship with parents, overcrowding). Then, looking at the distribution of this index we decided on a threshold dividing the initial population into two subpopulations, precarious or non-precarious.
 
-**_PLOT DISTRIBUTION BTW PRECARIOUS AND NON PREC_*
+![Plot7](./figures/7_PRECARIOUS.png)
 
 Around 25% of children were assigned to a precarious household.
 
@@ -128,17 +128,15 @@ Let's consider two groups of children, one with at least one other younger child
 
 Take a look at the distribution of the propensity scores among the two groups before matching: the general trend is the same from a global point of view but it is definitely not identical. Let's look at the distribution of one of the variables, `overcrowding`, in these two groups as well: again, not identical.
 
-**_PLOTS PRE MATCHING_**
+![Plot8](./figures/8_PS_precarious.png)
 
 Now, we can perform matching, that is we find pairs of children coming from different groups but with very close propensity score.This means that these children are very similar regarding all the above-mentioned variables but differ by the treatment (having a younger child in the household or not). Let's have a look again at the distribution of preopensity scores and the overcrowding variable over the two groups.
 
-**_PLOTS POST MATCHING_**
+![Plot9](./figures/9_PS_OVERCROWDING.png)
 
 The two curves of the propensity scores almost perfectly overlap, meaning that we perform a good matching between groups. Now, the distribution of `overcrowding` is almost identical between both groups as well, which means that the two subpopulations are very similar except for the treatment!
 
 In a similar fashion, we perform a propensity score matching with `precarious` as treatment.
-
-**_PLOT PSM ?_**
 
 Again, we can see that the two subpopulations are properly matched.
 
@@ -156,7 +154,7 @@ We also compute 95% confidence intervals, which contain the ATE with a 95% chanc
 
 So, what is the impact of precarious conditions and which outcomes does it affect the most ?
 
-**_PLOT ATES_**
+![Plot10](./figures/10_ATE_precarious_1.png)
 
 Looking at this plot, we can conclude that housing precarity has a strong positive effect on poor health and depression. It also has a positive effect, though less pronounced, on bad parental relationship.
 
@@ -173,7 +171,12 @@ Lastly, we will check whether an age group is more affected than another by the 
 
 Let's see what it shows:
 
-**_PLOTS ATES**
+![Plot11](./figures/10_ATE_precarious_2.png)
+
+![Plot12](./figures/10_ATE_precarious_3.png)
+
+![Plot13](./figures/10_ATE_precarious_4.png)
+
 
 It seems that younger children's mental health is more impacted by precarity than teenagers'. Indeed it is interesting to see that the effect on depression score is not significant for teenagers. However, recall that depression scores increase with age. We can conclude that the augmentation in depression occurence in teenagers is not particularly specific to their housing conditions.
 
