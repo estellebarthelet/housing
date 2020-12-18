@@ -163,7 +163,22 @@ In summary, children living in precarious environments tend to have worse physic
 Note that we included a control variable, the extracurricular activities, that we used in the propensity score computation, to make sure it was well distributed (indeed its linked ATE is not significant).
 
 
-##
+## Differences in effect between age groups
+
+Lastly, we will check whether an age group is more affected than another by the effects we just observed. We split the population between children (aged 6 to 11) and teenagers (aged 12 to 17). We can compute the ATEs of precarious conditions again on these two age groups, as well as their differences.
+
+Let's see what it shows:
+
+**_PLOTS ATES**
+
+It seems that younger children's mental health is more impacted by precarity than teenagers'. Indeed it is interesting to see that the effect on depression score is not significant for teenagers. However, recall that depression scores increase with age. We can conclude that the augmentation in depression occurence in teenagers is not particularly specific to their housing conditions.
+
+Regarding behavior, younger children that live in a precarious environment show more bahavioral problems than teenagers.
+
+The other variables are not significant. Thus, we can conclude that precarious living conditions affect children more than teenagers only for mental health.
+
+## Conclusion
+
 
 
 
