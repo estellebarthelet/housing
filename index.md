@@ -10,7 +10,7 @@ Indeed, achieving such results with only a bit more than 150$ of cement per hous
 
 *__What is the impact of the housing environment on education, health & happiness?__*
 
-## What, where, who, when ?
+## What, where, who, when?
 
 To try and answer that vast question we decided to focus on three main research axes.
 
