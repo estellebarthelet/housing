@@ -4,33 +4,32 @@ Have you ever wondered where you would be now if you had grown up in a different
 
 This is the question we asked ourselves after reading how Mexico managed to improve children's health and their mother's happiness by replacing dirt floors with cement, in a program called _Piso Firme_ [^1].
 
-[^1]: (https://www.aeaweb.org/articles?id=10.1257/pol.1.1.75).
+[^1]: Cattaneo, Matias D., Sebastian Galiani, Paul J. Gertler, Sebastian Martinez, and Rocio Titiunik. 2009. "Housing, Health, and Happiness." American Economic Journal: Economic Policy, 1 (1): 75-105.
 
 Indeed, achieving such results with only a bit more than 150$ of cement per household seemed rather encouraging, but this led us to wonder:
 
-*__What impact has the housing environment on education, health & happiness?__*
+*__What is the impact of the housing environment on education, health & happiness?__*
 
 ## What, where, who, when ?
 
 To try and answer that vast question we decided to focus on three main research axes.
 
-* *Which life outcome (education, health or happiness) is most affected by which housing conditions?*
+> *Which life outcome (education, health or happiness) is most affected by which housing conditions?*
 
-* *What is the effect of precarious housing on health (both physical and mental) and school involvement for children?*
+> *What is the effect of precarious housing on health (both physical and mental) and school involvement for children?*
 
-* *Are there differences in the effects of precarity between different age groups? If so, for which outcomes?*
+> *Are there differences in the effects of precarity between different age groups? If so, for which outcomes?*
 
 To conduct this study, we opted for a subset of the data from the National Survey of America's Family [^2] of 2002, to see the perspective from the other side of the frontier, in a similar timeframe as _Piso Firme_ (the program started in 2000). We combined data from children aged 6 to 17 and their respective households.
 
-[^2]: (https://www.icpsr.umich.edu/web/ICPSR/studies/4582)
+[^2]: Urban Institute, and Child Trends. National Survey of America’s Families (NSAF), 2002. Inter-university Consortium for Political and Social Research [distributor], 2007-10-03. 
 
 This dataset recenses a large number of households throughout the USA, providing insight on their demographics and health indicators of the inhabitants.
 
-**_PLOT DES CHOSES POUR PRESENTER LE DATA?_**
 
 Are you ready? Let's dive in!
 
-# General influence of living conditions on education, health and mental health
+# General influence of living conditions on education, health & mental health
 
 First, let's have a look at which housing conditions impact which life outcome the most.
 
@@ -45,19 +44,23 @@ Our indicator for education is measured on a school engagement scale, higher sco
 Let's look at some of the features that seemed to influence involvment in school the most.
 
 
+
 ![Plot1](./figures/1_UENG_vs_SEX_CSPECED_UACT_UFAMSTR.png)
+
 
 
 As we could expect, children receiving special education services (on the left) show less engagement in school than children who don't.
 
-The middle plot shows children that are taking part in more activities outside of school, like sports, lessons or any kind of clubs, seem to be more involved (so go get that gym membership that you've been talking about for months!).
+The middle plot shows that children who take part in more activities outside of school, like sports, lessons or any kind of clubs, seem to be more involved (so go get that gym membership that you've been talking about for months!).
 
 It is also interesting to note that girls are definitely more engaged in school than boys!
 
 The effect of family structure also seems to play a role as we can see on the right. Even though the first three living familial arrangements do not show any particular relationship with education, it seems that children living with both parents are more involved in school work. 
 
 
+
 ![Plot2](./figures/2_UENG_vs_AGE_UAGG.png)
+
 
 
 This plot on the left shows a compelling story. From a general point of view, it seems that highly engaged children are younger than less engaged ones. An explanation could be that as children grow older, their parents will likely supervise their school work less. However, we can see that the mean age of the most engaged children (15+ scores) is higher, meaning, perhaps, that some of the more involved students show high engagement for their entire education, regardless of age...
