@@ -4,7 +4,8 @@ Have you ever wondered where you would be now if you had grown up in a different
 
 >*How do your living conditions affect your life?*
 
-This is the question we asked ourselves after reading how Mexico managed to improve children's health and their mother's happiness by replacing dirt floors with cement, in a program called [_Piso Firme_] (https://www.aeaweb.org/articles?id=10.1257/pol.1.1.75).[1]
+This is the question we asked ourselves after reading how Mexico managed to improve children's health and their mother's happiness by replacing dirt floors with cement, in a program called [_Piso Firme_]
+(https://www.aeaweb.org/articles?id=10.1257/pol.1.1.75).[1]
 
 Indeed, achieving such results with only a bit more than 150$ of cement per household seemed rather encouraging, but this led us to wonder:
 
@@ -20,7 +21,8 @@ To try and answer that vast question we decided to focus on three main research 
 
 * Are there differences in the effects of precarity between different age groups ? If so, for which outcomes ?
 
-To conduct this study, we opted for a subset of the data from the [National Survey of America's Family] (https://www.icpsr.umich.edu/web/ICPSR/studies/4582) of 2002, to see the perspective from the other side of the frontier, in a similar timeframe as _Piso Firme_ (the program started in 2000). We combined data from children aged 6 to 17 and their respective households.
+To conduct this study, we opted for a subset of the data from the [National Survey of America's Family]
+(https://www.icpsr.umich.edu/web/ICPSR/studies/4582) of 2002, to see the perspective from the other side of the frontier, in a similar timeframe as _Piso Firme_ (the program started in 2000). We combined data from children aged 6 to 17 and their respective households.
 
 This dataset recenses a large number of households throughout the USA, providing insight on their demographics and health indicators of the inhabitants.
 
@@ -41,6 +43,8 @@ Our indicator for education is measured on a school engagement scale, higher sco
 Let's look at some of the features that seemed to influence involvment in school the most.
 
 **_PLOT SPECED, UACT, UAGG_**
+
+![Plot1](./figures/1_UENG_vs_SEX_CSPECED_UACT_UFAMSTR.png)
 
 a) As we could expect, children receiving special education services show less engagement in school than children who don't.
 
