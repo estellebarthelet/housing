@@ -182,3 +182,4 @@ The other variables are not significant. Thus, we can conclude that precarious l
 
 
 
+*Written by Estelle Barthelet & Alan Huguenin. This research was conducted in the context of a class project for the ADA course at EPFL.*
