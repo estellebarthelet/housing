@@ -112,7 +112,34 @@ To start with, we need to determine what 'precarious conditions' actually means 
 
 Around 25% of children were assigned to a precarious household.
 
-The next step was to make sure that 
+#### Propensity score matching
+
+Now we could simply compare education scores between children from precarious and non-precarious households. However, this would not account for the effect of many other variables that also play a role, such as the ones we showed above.
+The idea would be to compare children that are similar except for the fact that they live in a precarious household or not. Thus, we need to compute what is called a propensity score, which represents the probability of being assigned a treatment given a set of variables. Then, we can match children from different subpopulations that have a similar propensity score.
+
+Let's make an example !
+Let's consider two groups of children, one with at least one other younger child (aged 5 to 11 years old) in the household while the other does not. We can compute a propensity score based on a large number of other variables, personal (sex, region), familial (structure, relationship with parents, parents highest educational degree...), economic (income, health insurance), housing (overcrowding, number of people, ownership...) and health (disability, mental health).
+Take a look at the distribution of the propensity scores among the two groups before matching: the general trend is the same from a global point of view but it is definitely not identical. Let's look at the distribution of one of the variables, `overcrowding`, in these two groups as well: again, not identical.
+
+**_PLOTS PRE MATCHING_**
+
+Now, we can perform matching, that is we find pairs of children coming from different groups but with very close propensity score.This means that these children are very similar regarding all the above-mentioned variables but differ by the treatment (having a younger child in the household or not). Let's have a look again at the distribution of preopensity scores and the overcrowding variable over the two groups.
+
+**_PLOTS POST MATCHING_**
+
+The two curves of the propensity scores almost perfectly overlap, meaning that we perform a good matching between groups. Now, the distribution of `overcrowding` is almost identical between both groups as well, which means that the two subpopulations are very similar except for the treatment!
+
+In a similar fashion, we perform a propensity score matching with `precarious` as treatment.
+
+**_PLOT PSM ?_**
+
+Again, we can see that the two subpopulations are properly matched.
+
+#### Average treatment effect
+
+Now that matching is done, we can quantify the effect of the treatment on education, health and happiness. To do so, we average the difference of each matched pair of children for these three outcomes. ATE is given as a number between -1 and 1, -1 meaning that the treatment has a maximum negative effect, 0 meaning that the treatment has no effect and 1 meaning that the treatment has a maximum positive effect on the given outcome.
+
+We also compute 95% confidence intervals, which contain the ATE with a 95% chance. Thus, ATEs will be considered significant only if 0 (no effect) is not in this interval.
 
 
 
