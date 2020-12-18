@@ -115,10 +115,13 @@ Around 25% of children were assigned to a precarious household.
 #### Propensity score matching
 
 Now we could simply compare education scores between children from precarious and non-precarious households. However, this would not account for the effect of many other variables that also play a role, such as the ones we showed above.
+
 The idea would be to compare children that are similar except for the fact that they live in a precarious household or not. Thus, we need to compute what is called a propensity score, which represents the probability of being assigned a treatment given a set of variables. Then, we can match children from different subpopulations that have a similar propensity score.
 
 Let's make an example !
+
 Let's consider two groups of children, one with at least one other younger child (aged 5 to 11 years old) in the household while the other does not. We can compute a propensity score based on a large number of other variables, personal (sex, region), familial (structure, relationship with parents, parents highest educational degree...), economic (income, health insurance), housing (overcrowding, number of people, ownership...) and health (disability, mental health).
+
 Take a look at the distribution of the propensity scores among the two groups before matching: the general trend is the same from a global point of view but it is definitely not identical. Let's look at the distribution of one of the variables, `overcrowding`, in these two groups as well: again, not identical.
 
 **_PLOTS PRE MATCHING_**
@@ -137,9 +140,30 @@ Again, we can see that the two subpopulations are properly matched.
 
 #### Average treatment effect
 
-Now that matching is done, we can quantify the effect of the treatment on education, health and happiness. To do so, we average the difference of each matched pair of children for these three outcomes. ATE is given as a number between -1 and 1, -1 meaning that the treatment has a maximum negative effect, 0 meaning that the treatment has no effect and 1 meaning that the treatment has a maximum positive effect on the given outcome.
+Now that matching is done, we can quantify the effect of the treatment on education, health and happiness. To do so, we average the difference of each matched pair of children for these three outcomes. ATE is given as a number between -1 and 1:
 
-We also compute 95% confidence intervals, which contain the ATE with a 95% chance. Thus, ATEs will be considered significant only if 0 (no effect) is not in this interval.
+* -1: the treatment has a maximum negative effect,
+* 0: the treatment has no effect,
+* 1: the treatment has a maximum positive effect on the given outcome.
+
+We also compute 95% confidence intervals, which contain the ATE with a 95% chance. Thus, ATEs will be considered significant only if 0 (no effect) is _not_ in this interval.
+
+### Effect of precarious living conditions on education, health & happiness
+
+So, what is the impact of precarious conditions and which outcomes does it affect the most ?
+
+**_PLOT ATES_**
+
+Looking at this plot, we can conclude that housing precarity has a strong positive effect on poor health and depression. It also has a positive effect, though less pronounced, on bad parental relationship.
+
+A strong negative effect appears on parents mental health, and mild negative effects are shown for school engagement and children behavior. We can notice that the behavior of younger children seems more impacted than the behavior of older ones. We will further study differences in age groups later.
+
+In summary, children living in precarious environments tend to have worse physical condition and mental health (so do the parents), are less involved in school and show behavioral problems and bad relationship with their parents.
+
+Note that we included a control variable, the extracurricular activities, that we used in the propensity score computation, to make sure it was well distributed (indeed its linked ATE is not significant).
+
+
+##
 
 
 
