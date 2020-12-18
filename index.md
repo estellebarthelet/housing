@@ -8,7 +8,7 @@ This is the question we asked ourselves after reading how Mexico managed to impr
 
 Indeed, achieving such results with only a bit more than 150$ of cement per household seemed rather encouraging, but this led us to wonder:
 
-<div align="center"> *__What impact has the housing environment on education, health & happiness?__* </div>
+*__What impact has the housing environment on education, health & happiness?__*
 
 ### What, where, who, when ?
 
