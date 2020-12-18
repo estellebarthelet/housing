@@ -194,4 +194,8 @@ Living conditions and environment definitely play a role in children's engagemen
 
 This leads us to believe that improving the quality of life in these households would allow for better educational results and happier people, which highlights the importance of programs such as _Piso Firme_. Thus, it would be interesting to study sanitation programs in the United States and quantify their effect.
 
+Finally, the exploration of this data raised some more questions, especially about the direction of causal links between different features. Further research could be done to try and find those. 
+
+---
+
 *This research was conducted in the context of a class project for the ADA course at EPFL.*
