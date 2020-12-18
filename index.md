@@ -43,11 +43,11 @@ Our indicator for education is measured on a school engagement scale, higher sco
 
 Let's look at some of the features that seemed to influence involvment in school the most.
 
-
+\
 
 ![Plot1](./figures/1_UENG_vs_SEX_CSPECED_UACT_UFAMSTR.png)
 
-
+\
 
 As we could expect, children receiving special education services (on the left) show less engagement in school than children who don't.
 
