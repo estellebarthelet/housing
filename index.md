@@ -144,47 +144,50 @@ Let's consider the two groups of children that we constituted earlier, one livin
 Take a look at the distribution of the propensity scores among the two groups before matching: it is not evenly distributed. Let's look at the distribution of one of the variables, overcrowding, in these two groups as well: again, not identical.
 
 
-![Plot8](./figures/8_PS_precarious.png)
+![Plot8](./figures/8_PS_unmatched.png)
 
 
 Now, we can perform **matching**, that is we find pairs of children coming from different groups but with very close propensity scores.This means that these children are very similar regarding all the above-mentioned variables but differ by the treatment (living in precarious conditions). Let's have a look again at the distribution of propensity scores and the overcrowding variable over the two groups.
 
 
-![Plot9](./figures/9_PS_OVERCROWDING.png)
+![Plot9](./figures/8_PS_matched.png)
 
 
 The two curves of the propensity scores now almost perfectly overlap, meaning that we perform a good matching between groups. Compared to the plots above, we can notice that the paired children are the intersection of both distributions. Now, the distribution of overcrowding is almost identical between both groups as well, which means that the two subpopulations are very similar except for the treatment!
 
-#### Average treatment effect
+### Average treatment effect
 
-Now that matching is done, we can quantify the effect of the treatment on education, health and happiness. To do so, we average the difference of each matched pair of children for these three outcomes. ATE is given as a number between -1 and 1:
+Now that matching is done, we can quantify the effect of the treatment on education, health and happiness. To do so, we average the difference of each matched pair of children for different indicators of these three outcomes. ATE is given as a number between -1 and 1:
 
-* -1: the treatment has a maximum negative effect,
-* 0: the treatment has no effect,
-* 1: the treatment has a maximum positive effect on the given outcome.
+> * -1: the treatment has a maximum negative effect,
+> * 0: the treatment has no effect,
+> * 1: the treatment has a maximum positive effect on the given outcome.
 
 We also compute 95% confidence intervals, which contain the ATE with a 95% chance. Thus, ATEs will be considered significant only if 0 (no effect) is _not_ in this interval.
 
-### Effect of precarious living conditions on education, health & happiness
+## Effect of precarious living conditions on education, health & happiness
 
-So, what is the impact of precarious conditions and which outcomes does it affect the most ?
+So, what is the impact of precarious conditions and which outcomes does it affect the most?
+
 
 ![Plot10](./figures/10_ATE_precarious_1.png)
 
-Looking at this plot, we can conclude that housing precarity has a strong positive effect on poor health and depression. It also has a positive effect, though less pronounced, on bad parental relationship.
 
-A strong negative effect appears on parents mental health, and mild negative effects are shown for school engagement and children behavior. We can notice that the behavior of younger children seems more impacted than the behavior of older ones. We will further study differences in age groups later.
+Looking at this plot, we can conclude that housing precarity strongly increases poor health and depression. It also increases bad parental relationship, even though the effect is less pronounced.
+
+A strong negative effect appears on parents mental health, and mild negative effects are shown for school engagement and children behavior. We can notice that the behavior of younger children seems more impacted than the behavior of older ones. If you're still interested, keep reading, we will further study differences in age groups later!
 
 In summary, children living in precarious environments tend to have worse physical condition and mental health (so do the parents), are less involved in school and show behavioral problems and bad relationship with their parents.
 
-Note that we included a control variable, the extracurricular activities, that we used in the propensity score computation, to make sure it was well distributed (indeed its linked ATE is not significant).
+Note that we included a control variable, the extracurricular activities, that we used in the propensity score computation, to make sure it was well distributed across both populations (indeed its linked ATE is not significant).
 
 
-## Differences in effect between age groups
+# Differences in effect between age groups
 
 Lastly, we will check whether an age group is more affected than another by the effects we just observed. We split the population between children (aged 6 to 11) and teenagers (aged 12 to 17). We can compute the ATEs of precarious conditions again on these two age groups, as well as their differences.
 
 Let's see what it shows:
+
 
 ![Plot11](./figures/10_ATE_precarious_2.png)
 
@@ -193,13 +196,16 @@ Let's see what it shows:
 ![Plot13](./figures/10_ATE_precarious_4.png)
 
 
-It seems that younger children's mental health is more impacted by precarity than teenagers'. Indeed it is interesting to see that the effect on depression score is not significant for teenagers. However, recall that depression scores increase with age. We can conclude that the augmentation in depression occurence in teenagers is not particularly specific to their housing conditions.
+It seems that younger children's mental health is more impacted by precarity than teenagers'. Indeed it is interesting to see that the effect on depression score is not significant for teenagers. However, recall that depression scores increase with age! We can conclude that the augmentation in depression occurence in teenagers is not particularly specific to their housing conditions. 
 
-Regarding behavior, younger children that live in a precarious environment show more bahavioral problems than teenagers.
+On the other hand, the physical health of teenagers is more harshly impacted.
 
-The other variables are not significant. Thus, we can conclude that precarious living conditions affect children more than teenagers only for mental health.
+Regarding behavior, younger children that live in a precarious environment show more behavioral problems than teenagers.
 
-## Conclusion
+The other variables are not significant. Thus, we can conclude that precarious living conditions affect children more than teenagers for mental health, while teenagers are more impacted on their physical condition. Education however does not seem to be affected differently across different age groups.
+
+
+# Conclusion
 
 
 
