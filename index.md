@@ -188,7 +188,10 @@ The other variables are not significant. Thus, we can conclude that precarious l
 
 # Conclusion
 
+We are coming to the end of this study. What have we learned?
 
+Living conditions and environment definitely play a role in children's engagement in school as well as on their health, both physically and mentally. Moreover, precarious living conditions seem correlated with increasing health issues and depression. School performances are also affected.
 
+This leads us to believe that improving the quality of life in these households would allow for better educational results and happier people, which highlights the importance of programs such as _Piso Firme_. Thus, it would be interesting to study sanitation programs in the United States and quantify their effect.
 
-*Written by Estelle Barthelet & Alan Huguenin. This research was conducted in the context of a class project for the ADA course at EPFL.*
+*This research was conducted in the context of a class project for the ADA course at EPFL.*
