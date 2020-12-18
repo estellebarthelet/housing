@@ -100,10 +100,19 @@ a) Without surprise, parents mental health deteriorates as the relationship with
 b) Now, let's look at income and having a disabled child (physically or mentally) at home.Regardless of that last parameter, higher income correlates with happier parents. *Does that mean that money can buy happiness?* Let's not jump to conclusions, there are many variables linked to income that were not taken into account here... However, another interesting thing from this plot is that having a disabled child seems to negatively impact parents mental health (parents with a disabled child are about 10% less happy than parents with healthy children), which could be due to a lot more of responsibilities and time spent to care for this child.
 
 
-## 
+## Influence of precarious living conditions on education, health & happiness
 
+Next, let's dive deeper and compare life outcomes of people living or not in precarious conditions.
 
+### How ?
 
+To start with, we need to determine what 'precarious conditions' actually means for our study. To do so, we established a living index reflecting the quality of life, based on variables both economic (income, house ownership, health insurance) and social (family structure, relationship with parents, overcrowding). Then, looking at the distribution of this index we decided on a threshold dividing the initial population into two subpopulations, precarious or non-precarious.
+
+**_PLOT DISTRIBUTION BTW PRECARIOUS AND NON PREC_*
+
+Around 25% of children were assigned to a precarious household.
+
+The next step was to make sure that 
 
 
 
